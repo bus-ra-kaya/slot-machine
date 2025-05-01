@@ -23,7 +23,7 @@ Folder Structure
 /icons                → icon images
 /styles.css           → main styles
 /balance.js           → game logic
-/index.html           → main HTML file
+/slot-machine.html    → main HTML file
 
 Credits:
 Icons from https://icons8.com/
