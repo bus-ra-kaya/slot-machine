@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Machine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+  <div id="header">
+    <h2 class="header-left">Slot Machine</h2>
+    <h3 class="header-right" id="balance"> Bal: </h3>
+  </div>
+</header>
+
+<div class="modal" id="modal">
+  <div class="modal-div">
+    <p style="margin-bottom:20px;">Do you feel lucky?</p>
+    <button class="fancyButton">Yes</button>
+  </div>
+</div>
+
+
+<div class="modal" id="modal2" style="display: none;" >
+  <div class=modal-div>
+    <p style="margin-bottom:20px;">How much money do you want to put in? c:</p>
+<input id='balanceInput' type="text" placeholder=" ">
+<button  class='fancyButton' id='submitButton'style="padding:5px 10px;">Submit</button>
+
+  </div>
+</div>
+
+<div class="modal" id="modalOutcome" style="display: none;" >
+  <div class=modal-div>
+    <p style="margin-bottom:20px;" id="winLoseText"></p>
+<button class="fancyButton">Play again?</button>
+
+  </div>
+</div>
+
+<div class="modal" id="SecondLoss" style="display: none;"> 
+<div class="modal-div">
+  <p style="margin-bottom:20px;" id="loseText"></p>
+  <button class='fancyButton'>Try again?</button>
+</div>
+</div>
+
+<div id="main-game">
+  <div id="slot-machine">
+    <div> 
+      <div class="reel" id="reel11"> <img src="icons/icons8-euro-money-50.png" alt="icon">
+      </div>
+      <div class="reel mid-reel" id="reel12" > <img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+      <div class="reel bottom-reel" id="reel13" ><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+    </div>
+    <div>
+      <div class="reel" id="reel21" ><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+      <div class="reel mid-reel" id="reel22"><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+      <div class="reel bottom-reel" id="reel23"><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+    </div>
+    <div>
+      <div class="reel" id="reel31"><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+      <div class="reel mid-reel" id="reel32" ><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+      <div class="reel bottom-reel" id="reel33"><img src="icons/icons8-euro-money-50.png" alt="icon"></div>
+    </div>
+  </div>
+  <button class="fancyButton" id="spin-button">Spin</button>
+</div>
+
+<script src="balance.js"></script>
+</body>
+</html>
