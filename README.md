@@ -1,5 +1,3 @@
-# slot-machine
-
 A simple web-based slot machine game in which the player spins reels to win/lose virtual money.
 
 Languages Used:
