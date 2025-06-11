@@ -17,7 +17,7 @@ Enter the amount you want to bet on
 Press “Spin” to play
 Check your win or loss status with the popups
 
-Folder Structure
+##Folder Structure
 /icons                → icon images
 /styles.css           → main styles
 /balance.js           → game logic
